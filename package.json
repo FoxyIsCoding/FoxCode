@@ -1,0 +1,193 @@
+{
+  "name": "FoxCode",
+  "version": "2.2.7",
+  "description": "minimalistic coder editor",
+  "homepage": "https://foxy.wz.cz",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "package": "electron-builder",
+    "test-build": "electron-builder --publish never"
+  },
+  "keywords": [
+    "code",
+    "editor"
+  ],
+  "author": "Foxy",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^26.3.0",
+    "electron-builder": "^24.6.4",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.28.1"
+  },
+  "dependencies": {
+    "electron-updater": "^5.3.0",
+    "highlight.js": "^10.7.3",
+    "katex": "^0.15.6",
+    "marked": "^4.3.0",
+    "tree-kill": "^1.2.2"
+  },
+  "build": {
+    "appId": "FoxCode",
+    "win": {
+      "target": [
+        "zip",
+        "nsis"
+      ],
+      "icon": "build/icon.ico"
+    },
+    "linux": {
+      "category": "Utility"
+    },      
+    "mac": {
+    },
+    "nsis": {
+      "oneClick": false,
+      "perMachine": true
+    },
+    "fileAssociations": [
+      {
+        "ext": "bat",
+        "name": "Batch",
+        "role": "Editor"
+      },
+      {
+        "ext": "cmd",
+        "name": "Batch",
+        "role": "Editor"
+      },
+      {
+        "ext": "c",
+        "name": "C",
+        "role": "Editor"
+      },
+      {
+        "ext": "h",
+        "name": "C",
+        "role": "Editor"
+      },
+      {
+        "ext": "cpp",
+        "name": "C++",
+        "role": "Editor"
+      },
+      {
+        "ext": "hpp",
+        "name": "C++",
+        "role": "Editor"
+      },
+      {
+        "ext": "cs",
+        "name": "C#",
+        "role": "Editor"
+      },
+      {
+        "ext": "css",
+        "name": "CSS",
+        "role": "Editor"
+      },
+      {
+        "ext": "dart",
+        "name": "DART",
+        "role": "Editor"
+      },
+      {
+        "ext": "go",
+        "name": "Go",
+        "role": "Editor"
+      },
+      {
+        "ext": "html",
+        "name": "HTML",
+        "role": "Editor"
+      },
+      {
+        "ext": "java",
+        "name": "Java",
+        "role": "Editor"
+      },
+      {
+        "ext": "js",
+        "name": "JavaScript",
+        "role": "Editor"
+      },
+      {
+        "ext": "json",
+        "name": "JSON",
+        "role": "Editor"
+      },
+      {
+        "ext": "tex",
+        "name": "LaTeX",
+        "role": "Editor"
+      },
+      {
+        "ext": "latex",
+        "name": "LaTeX",
+        "role": "Editor"
+      },
+      {
+        "ext": "bib",
+        "name": "LaTeX",
+        "role": "Editor"
+      },
+      {
+        "ext": "md",
+        "name": "Markdown",
+        "role": "Editor"
+      },
+      {
+        "ext": "markdown",
+        "name": "Markdown",
+        "role": "Editor"
+      },
+      {
+        "ext": "php",
+        "name": "PHP",
+        "role": "Editor"
+      },
+      {
+        "ext": "txt",
+        "name": "Plain Text",
+        "role": "Editor"
+      },
+      {
+        "ext": "ps1",
+        "name": "PowerShell",
+        "role": "Editor"
+      },
+      {
+        "ext": "py",
+        "name": "Python",
+        "role": "Editor"
+      },
+      {
+        "ext": "sql",
+        "name": "SQL",
+        "role": "Editor"
+      },
+      {
+        "ext": "ts",
+        "name": "TypeScript",
+        "role": "Editor"
+      },
+      {
+        "ext": "xml",
+        "name": "XML",
+        "role": "Editor"
+      },
+      {
+        "ext": "yaml",
+        "name": "YAML",
+        "role": "Editor"
+      },
+      {
+        "ext": "yml",
+        "name": "YAML",
+        "role": "Editor"
+      }
+    ]
+  }
+}
