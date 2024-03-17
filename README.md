@@ -1,9 +1,11 @@
+
 <h1><img src="./res/img/icon.png" height="24"> monolith code</h1>
 
-[![Build](https://github.com/Haeri/monolith-code/actions/workflows/release.yml/badge.svg)](https://github.com/Haeri/monolith-code/actions/workflows/release.yml)
-[![Version](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/Haeri/monolith-code/master/package.json&label=version&query=$['version']&color=blue)](https://github.com/Haeri/monolith-code/releases/latest)
-[![License](https://img.shields.io/github/license/haeri/monolith-code.svg)](https://github.com/Haeri/monolith-code/blob/master/LICENSE)
 
-minimalistic but powerful code editor
+[![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FHaeri%2Fmonolith-code%2Fmaster%2Fpackage.json&query=%24%5B'version'%5D&style=flat-square&label=Version&color=blue)
+](https://github.com/Haeri/monolith-code/releases/latest)![GitHub License](https://img.shields.io/github/license/FoxyIsCoding/FoxCode?style=flat-square)
 
-[[![screenshot](./docs/res/img/screenshot.png)](https://github.com/Haeri/monolith-code/blob/master/docs/res/img/screenshot.png)https://github.com/Haeri/monolith-code/blob/master/docs/res/img/screenshot.png](https://raw.githubusercontent.com/Haeri/monolith-code/master/docs/res/img/screenshot.png)https://raw.githubusercontent.com/Haeri/monolith-code/master/docs/res/img/screenshot.png
+
+> minimalistic but powerful code editor
+
+![UI](https://raw.githubusercontent.com/Haeri/monolith-code/master/docs/res/img/screenshot.png)
