@@ -6,4 +6,4 @@
 
 minimalistic but powerful code editor
 
-[![screenshot](./docs/res/img/screenshot.png)](https://github.com/Haeri/monolith-code/blob/master/docs/res/img/screenshot.png)https://github.com/Haeri/monolith-code/blob/master/docs/res/img/screenshot.png
+[[![screenshot](./docs/res/img/screenshot.png)](https://github.com/Haeri/monolith-code/blob/master/docs/res/img/screenshot.png)https://github.com/Haeri/monolith-code/blob/master/docs/res/img/screenshot.png](https://raw.githubusercontent.com/Haeri/monolith-code/master/docs/res/img/screenshot.png)https://raw.githubusercontent.com/Haeri/monolith-code/master/docs/res/img/screenshot.png
