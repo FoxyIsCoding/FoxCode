@@ -14,7 +14,7 @@
    [Visit here](https://foxcode-1.gitbook.io/untitled/)
    
 
- - Shortcuts 
+ - [Shortcuts](https://foxcode-1.gitbook.io/untitled/shortcuts) 
  - [Building](https://foxcode-1.gitbook.io/untitled/devolopment)
  - [Help](https://foxcode-1.gitbook.io/untitled/help)
  - And more
